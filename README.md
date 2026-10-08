@@ -2,4 +2,4 @@
 
 This project contains a server health monitoring script.
 
-Environment: main
+Environment: feature
