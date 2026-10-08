@@ -19,6 +19,12 @@ HEALTH_FAILED=0
 
 ENVIRONMENT="${ENVIRONMENT:-local}"
 
+if [ -n "$APP_TOKEN" ]; then
+    echo "APP_TOKEN is configured"
+else
+    echo "ERROR: APP_TOKEN is not configured"
+fi
+
 echo "===== SERVER HEALTH ====="
 echo
 

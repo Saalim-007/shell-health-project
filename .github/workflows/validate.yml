@@ -10,6 +10,7 @@ on:
 
 env:
   ENVIRONMENT: test
+  APP_TOKEN: ${{ secrets.APP_TOKEN }}
 
 jobs:
   shell-validation:
