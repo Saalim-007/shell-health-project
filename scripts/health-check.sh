@@ -17,6 +17,8 @@ fi
 # Health status
 HEALTH_FAILED=0
 
+ENVIRONMENT="${ENVIRONMENT:-local}"
+
 echo "===== SERVER HEALTH ====="
 echo
 

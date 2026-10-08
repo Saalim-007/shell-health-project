@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+env:
+  ENVIRONMENT: test
+
 jobs:
   shell-validation:
     runs-on: ubuntu-latest
